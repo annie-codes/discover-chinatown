@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Passero+One|Permanent+Marker|Questrial');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8EBF7;
+    font-family: 'Questrial', sans-serif; 
+}
+
+h2 {
+    padding: 5px 0px;
+}
+
+footer {
+    padding: 1.2rem;
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* LOGO */
+
+.logo-text {
+    font-family: 'Passero One', cursive;
+    text-align: center;
+    padding-top: 10px;
+/*logo color should be #B11F2F look at h1 a color; */
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: 48px;
+    color: #B11F2F;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+nav li {
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7C616C;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #F2D398;
+    border-radius: 20px;
+}
+
+.page-indicator {
+    color: #D78521;
+    text-decoration: bold;
+}
+
+/* Navigation Ends */
+
+
+.body-container {
+    margin: 0% 5%;
+    padding: 0px 0px 20px 0px;
+    background-color: #F1F1F1;
+    opacity: 0.95;  
+}
+
+.full-img {
+    width: 100%;
+    object-position: top;
+}
+
+.about-content {
+    padding: 10px;
+}
+
+/* flexbox navigation for local spots page */
+.spot-menu {
+    display: flex;
+}
+
+.spots {
+    width: 25%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 20px 0.7px #000000;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+/* removes defaults for a links */
+.clear-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a h3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #D78521;
+    padding-top: 15px;
+}
+
+.spot-title {
+    padding-bottom: 15px;
+    background: black;
+    opacity: .8;
+}
+
+.food-box {
+    width: 100%;
+    padding: 50px 0px;
+    border: 2px solid #000;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50),
+      rgba(255, 250, 250, 0.50)), url('../images/food.jpg') no-repeat;
+    background-position: bottom;
+}
+
+.food-box:hover {
+    background: url('../images/food.jpg');
+    background-position: bottom;
+}
+
+.museum-box {
+    width: 100%;
+    padding: 50px 0px;
+    border: 2px solid #000;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50),
+      rgba(255, 250, 250, 0.50)), url('../images/museum.jpg') no-repeat;
+    background-position: center;
+}
+
+.museum-box:hover {
+    background: url('../images/museum.jpg');
+    background-position: center;
+}
+
+.karaoke-box {
+    width: 100%;
+    padding: 50px 0px;
+    border: 2px solid #000;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50),
+      rgba(255, 250, 250, 0.50)), url('../images/karaoke.jpg') no-repeat;
+    background-position:center;
+}
+
+.karaoke-box:hover {
+    background: url('../images/karaoke.jpg');
+    background-position: center;
+}
+
+.grocery-box {
+    width: 100%;
+    padding: 50px 0px;
+    border: 2px solid #000;
+    background: linear-gradient(
+      rgba(250, 250, 250, 0.50),
+      rgba(255, 250, 250, 0.50)), url('../images/grocery.jpg') no-repeat;
+    background-position: right;
+}
+
+.grocery-box:hover {
+    background: url('../images/grocery.jpg');
+    background-position: right;
+}
+
+.spots-content {
+    margin: 0% 5%;
+    padding: 1% 3%;
+    background-color: #F1F1F1;
+    opacity: 0.95;  
+}
+
+
+/* Directions Page - Google */
+#map {
+    text-align: center;
+}
+
+.directions-content {
+    text-align: center;
+}
+
+/* Contact Us */
+.form-container {
+    margin: 0px auto 0px auto;
+    padding: 30px;
+    width: 60%;
+    background-color: #F2D398;
+    opacity: .80;
+}
+
+.form-header {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #D78521;
+}
+
+textarea {
+    width: 100%;
+}
+
